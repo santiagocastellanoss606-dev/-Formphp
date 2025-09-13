@@ -1,10 +1,13 @@
 <?php
-$nombre = $_POST['nombre'];
-$edad = $_POST['edad'];
-$direccion = $_POST['direccion'];
-$salario = $_POST['salario'];
+$Nombre = $_POST['Nombre'];
+$Edad = $_POST['Edad'];
+$Direccion = $_POST['Direccion'];
+$Salario = $_POST['salario'];
+$Correo Electronico = $_POST['Correo Electronico'];
+$Cargo = $_POST['Cargo'];
 
 echo "<h2>Información recibida</h2>";
-echo "El empleado $nombre tiene $edad años.<br>";
-echo "Vive en $direccion y su salario es: $salario.";
+echo "El empleado $Nombre tiene $Edad años.<br>";
+echo "Vive en $Direccion y su salario es: $Salario.";
+echo "Su correo electronico es $CorreoElectronico y su cargo es $Cargo."; 
 ?>
